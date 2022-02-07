@@ -1,0 +1,32 @@
+.item {
+    
+    width: 100px;
+    height: 100px;
+}
+#drag-item1 {
+    background-color: turquoise;
+}
+#drag-item2 {
+    background-color: rosybrown;
+}
+#drag-item3 {
+    background-color: lawngreen;
+}
+#drop-area {
+    width: 800px;
+    height: 300px;
+    background-color: coral;
+    float: right;
+    display: flex;
+}
+.fa-cloud-download-alt {
+    cursor: pointer;
+}
+.upload-area {
+    width: 800px;
+    height: 400px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
